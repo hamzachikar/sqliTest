@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jyeihcwUVW9P4gTX4ukKzzyHjQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestSqli">
+    <configuration name="DichesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diches.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcomTest.testVoucherCodeRequireMachinePurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testVoucherCodeRequireMachinePurchase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcomTest.testVoucherCodeSucessIfNumeric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testVoucherCodeSucessIfNumeric" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSqli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bomberman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bomberman" />
+      <option name="MAIN_CLASS_NAME" value="bomberman.TestSqli" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSqli" />
+        <item itemvalue="JUnit.DichesTest" />
+        <item itemvalue="JUnit.EcomTest" />
+        <item itemvalue="JUnit.EcomTest.testVoucherCodeRequireMachinePurchase" />
+        <item itemvalue="JUnit.EcomTest.testVoucherCodeSucessIfNumeric" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="" />
+      <created>1604780887800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604780887800</updated>
+      <workItem from="1604780889527" duration="18441000" />
+      <workItem from="1604840753495" duration="5265000" />
+      <workItem from="1604847579347" duration="12948000" />
+      <workItem from="1604872331568" duration="7075000" />
+      <workItem from="1604916399568" duration="23840000" />
+      <workItem from="1605119297226" duration="1304000" />
+      <workItem from="1605129041314" duration="1469000" />
+      <workItem from="1605183420141" duration="347000" />
+      <workItem from="1605442077942" duration="726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1604783409042">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1604788391648">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1604788391648" />
+    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604934653868">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1604934653868" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605183505127">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605183505127" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1605183766713">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1605183766713">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1605183766713">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1605183766713">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604942979500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1604942979500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1604942979500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1604942979500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
+    <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604781032531">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1604781032531" />
+    <state x="209" y="38" key="new project wizard" timestamp="1605121268169">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="38" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1605121268169" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/electricTrip/ElectricTrip.java</url>
+          <line>6</line>
+          <properties field="start" class="electricTrip.ElectricTrip.Trip" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
