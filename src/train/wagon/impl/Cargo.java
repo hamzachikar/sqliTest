@@ -1,25 +1,26 @@
 package train.wagon.impl;
 
 import train.wagon.Wagon;
+import train.wagon.wagon_state.CargoState;
+import train.wagon.wagon_state.impl.EmptyCargo;
+import train.wagon.wagon_state.impl.LoadedCargo;
+
 import static  train.config.Configuration.LOADED_CARGO;
 import static  train.config.Configuration.EMPTY_CARGO;
 public class Cargo implements Wagon {
-    private String gargo=EMPTY_CARGO;
-    private boolean loaded=false;
+    private CargoState cargo =new EmptyCargo();
 
     @Override
     public String print() {
-        return this.gargo;
+        return this.cargo.print();
     }
-    public boolean getState(){
-        return this.loaded;
+    public CargoState getState(){
+        return this.cargo;
     }
     public void fill(){
-        this.gargo=LOADED_CARGO;
-        this.loaded=true;
+        this.cargo=new LoadedCargo();
     }
     public void empty(){
-        this.gargo=EMPTY_CARGO;
-        this.loaded=false;
+        this.cargo=new EmptyCargo();
     }
 }

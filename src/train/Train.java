@@ -3,6 +3,7 @@ package train;
 import train.wagon.Wagon;
 import train.wagon.WagonFactory;
 import train.wagon.impl.*;
+import train.wagon.wagon_state.impl.EmptyCargo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +53,7 @@ public class Train {
     public boolean fill() {
         for(Wagon wagon:this.wagons){
             if(wagon.getClass()==Cargo.class){
-                if(!((Cargo) wagon).getState()) {
+                if(((Cargo) wagon).getState().getClass()==EmptyCargo.class) {
                     ((Cargo) wagon).fill();
                     return true;
                 }
