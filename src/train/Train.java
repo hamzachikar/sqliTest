@@ -58,16 +58,14 @@ public class Train {
     }
 
     public boolean fill() {
-        boolean flag=false;
         for(Wagon wagon:this.wagons){
             if(wagon.getClass()==Cargo.class){
                 if(!((Cargo) wagon).getState()) {
                     ((Cargo) wagon).fill();
-                    flag=true;
-                    break;
+                    return true;
                 }
             }
         }
-        return flag;
+        return false;
     }
 }

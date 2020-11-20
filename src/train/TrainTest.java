@@ -26,7 +26,6 @@ public class TrainTest {
     @Test
     public void passengerTrain() {
         Train train = new Train("HPP");
-        System.out.println(train.print());
         assertEquals("<HHHH::|OOOO|::|OOOO|", train.print());
     }
 

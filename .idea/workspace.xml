@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/Train.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/TrainTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/config/Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/Wagon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Cargo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/FirstHead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/LastHead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Passenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Restaurent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/TrainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/config/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/Wagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/FirstHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/LastHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Restaurent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sqli/train/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sqli/train/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sqli/train/TrainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sqli/train/TrainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/train/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/train/TrainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +154,7 @@
       <workItem from="1605442077942" duration="2350000" />
       <workItem from="1605459536921" duration="9000" />
       <workItem from="1605542389622" duration="3000" />
-      <workItem from="1605882839231" duration="5053000" />
+      <workItem from="1605882839231" duration="5523000" />
     </task>
     <servers />
   </component>
@@ -197,22 +182,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1605888386547">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1605890271160">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605888386547" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1605888386545">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605890271160" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1605890271159">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605888386545" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1605888386545">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605890271159" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1605890271159">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605888386545" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1605888386547">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605890271159" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1605890271160">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605888386547" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605890271160" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604942979500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
