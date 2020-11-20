@@ -1,6 +1,7 @@
 package train;
 
 import train.wagon.Wagon;
+import train.wagon.WagonFactory;
 import train.wagon.impl.*;
 
 import java.util.ArrayList;
@@ -8,14 +9,15 @@ import java.util.List;
 import static train.config.Configuration.CONNECT;
 public class Train {
     List<Wagon> wagons=new ArrayList<>();
+    WagonFactory wagonFactory=new WagonFactory();
     public Train(String train){
         String[]wagons=train.split("");
         for(int i=0;i<wagons.length;i++){
             if(i==0&&wagons[i].equalsIgnoreCase("H")){
-                this.wagons.add(new LastHead());
+                this.addWagon('h');
             }
             else if(i==wagons.length-1&&wagons[i].equalsIgnoreCase("H")){
-                this.wagons.add(new FirstHead());
+                this.addWagon('H');
             }
             else{
                 this.addWagon(wagons[i].charAt(0));
@@ -24,17 +26,7 @@ public class Train {
     }
 
     private void addWagon(char wagon) {
-        switch (wagon){
-            case 'P':
-                this.wagons.add(new Passenger());
-                break;
-            case 'R':
-                this.wagons.add(new Restaurent());
-                break;
-            case 'C':
-                this.wagons.add(new Cargo());
-                break;
-        }
+        this.wagons.add(this.wagonFactory.getWagon(wagon));
     }
     public String print(){
         String train="";
