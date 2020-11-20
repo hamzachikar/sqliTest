@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="" />
+    <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/TrainTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/config/Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/Wagon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Cargo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/FirstHead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/LastHead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Passenger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Restaurent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/TrainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/config/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/Wagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/FirstHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/LastHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train/wagon/impl/Restaurent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +31,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jyeihcwUVW9P4gTX4ukKzzyHjQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,93 +54,97 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bombermanSQLI" />
   </component>
-  <component name="RunManager" selected="JUnit.TestSqli">
-    <configuration name="DichesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrainTest">
+    <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="train.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrainTest.cargoTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecom.*" />
+          <option name="PATTERN" value="train.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ecom" />
-      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EcomTest.testVoucherCodeRequireMachinePurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ecom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ecom" />
-      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
-      <option name="METHOD_NAME" value="testVoucherCodeRequireMachinePurchase" />
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="METHOD_NAME" value="cargoTrain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcomTest.testVoucherCodeSucessIfNumeric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrainTest.doubleHeadedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecom.*" />
+          <option name="PATTERN" value="train.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ecom" />
-      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
-      <option name="METHOD_NAME" value="testVoucherCodeSucessIfNumeric" />
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="METHOD_NAME" value="doubleHeadedTrain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSqli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrainTest.mixedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bomberman.*" />
+          <option name="PATTERN" value="train.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bomberman" />
-      <option name="MAIN_CLASS_NAME" value="bomberman.TestSqli" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="METHOD_NAME" value="mixedTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainTest.modifyTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="METHOD_NAME" value="modifyTrain" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSqli" />
-        <item itemvalue="JUnit.DichesTest" />
-        <item itemvalue="JUnit.EcomTest" />
-        <item itemvalue="JUnit.EcomTest.testVoucherCodeRequireMachinePurchase" />
-        <item itemvalue="JUnit.EcomTest.testVoucherCodeSucessIfNumeric" />
+        <item itemvalue="JUnit.TrainTest" />
+        <item itemvalue="JUnit.TrainTest.mixedTrain" />
+        <item itemvalue="JUnit.TrainTest.cargoTrain" />
+        <item itemvalue="JUnit.TrainTest.modifyTrain" />
+        <item itemvalue="JUnit.TrainTest.doubleHeadedTrain" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +166,10 @@
       <workItem from="1605119297226" duration="1304000" />
       <workItem from="1605129041314" duration="1469000" />
       <workItem from="1605183420141" duration="347000" />
-      <workItem from="1605442077942" duration="726000" />
+      <workItem from="1605442077942" duration="2350000" />
+      <workItem from="1605459536921" duration="9000" />
+      <workItem from="1605542389622" duration="3000" />
+      <workItem from="1605882839231" duration="5053000" />
     </task>
     <servers />
   </component>
@@ -146,34 +181,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1604788391648">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1605886230050">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1604788391648" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1605886230050" />
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604934653868">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1604934653868" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605183505127">
+    <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1605888542661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605183505127" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1605183766713">
+    <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1605888542661" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605443509466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1605183766713">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1605888386547">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1605183766713">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605888386547" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1605888386545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1605183766713">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605888386545" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1605888386545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605183766713" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605888386545" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1605888386547">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605888386547" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604942979500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
