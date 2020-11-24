@@ -4,19 +4,21 @@ import elevators.elevator_services.IElevatorsService;
 import elevators.main_class.Elevator;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ElevatorsService implements IElevatorsService {
     private int requestFloor;
     private int numberOfFloor;
-    List<Elevator> elevators;
+    Map<String,Elevator> elevators;
     public ElevatorsService(String[] elevatorsProps,int numberOfFloor){
         this.requestFloor=numberOfFloor;
         this.numberOfFloor=numberOfFloor;
-        this.elevators=new ArrayList<>();
+        this.elevators=new HashMap<>();
         for(String elevator:elevatorsProps){
             String[] elevatorP=elevator.split(":");
-            this.elevators.add(new Elevator(elevatorP[0],Integer.valueOf(elevatorP[1])));
+            this.elevators.put(elevatorP[0],new Elevator(elevatorP[0],Integer.valueOf(elevatorP[1])));
         }
     }
 
@@ -24,7 +26,7 @@ public class ElevatorsService implements IElevatorsService {
     public String requestElevator() {
         Elevator elevatorRequested=new Elevator();
         int minFloorDistance=-1;
-        for(Elevator elevator:elevators){
+        for(Elevator elevator:elevators.values()){
             int floorDistance=elevator.getDistanceElevatorAndRequest(this.requestFloor,this.numberOfFloor);
             if(floorDistance>0){
                 if(minFloorDistance<0){
@@ -51,7 +53,7 @@ public class ElevatorsService implements IElevatorsService {
 
     @Override
     public void move(String idElevator, String direction) {
-        for(Elevator elevator:this.elevators){
+        for(Elevator elevator:this.elevators.values()){
             if(elevator.getId().equalsIgnoreCase(idElevator)){
                 elevator.move(direction);
                 break;
@@ -61,7 +63,7 @@ public class ElevatorsService implements IElevatorsService {
 
     @Override
     public void stopAt(String idElevator, int numberFloor) {
-        for(Elevator elevator:this.elevators){
+        for(Elevator elevator:this.elevators.values()){
             if(elevator.getId().equalsIgnoreCase(idElevator)){
                 elevator.stopAt(numberFloor);
                 break;
