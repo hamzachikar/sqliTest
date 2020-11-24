@@ -3,9 +3,7 @@ package elevators.elevator_services.implement;
 import elevators.elevator_services.IElevatorsService;
 import elevators.main_class.Elevator;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class ElevatorsService implements IElevatorsService {
@@ -53,21 +51,11 @@ public class ElevatorsService implements IElevatorsService {
 
     @Override
     public void move(String idElevator, String direction) {
-        for(Elevator elevator:this.elevators.values()){
-            if(elevator.getId().equalsIgnoreCase(idElevator)){
-                elevator.move(direction);
-                break;
-            }
-        }
+        this.elevators.get(idElevator).move(direction);
     }
 
     @Override
     public void stopAt(String idElevator, int numberFloor) {
-        for(Elevator elevator:this.elevators.values()){
-            if(elevator.getId().equalsIgnoreCase(idElevator)){
-                elevator.stopAt(numberFloor);
-                break;
-            }
-        }
+        this.elevators.get(idElevator).stopAt(numberFloor);
     }
 }
