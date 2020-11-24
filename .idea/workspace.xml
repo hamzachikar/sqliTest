@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Cargo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sqli/train/wagon/impl/Cargo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train/wagon/impl/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/train/wagon/impl/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/IElevatorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/IElevatorState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/states/DownWardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/states/DownWardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/states/RestState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/states/RestState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/states/StopState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/states/StopState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/states/UpWardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/states/UpWardState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,22 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevatorsTest.elevators_going_down_arrive_last_to_top_floor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elevators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elevators" />
-      <option name="MAIN_CLASS_NAME" value="elevators.ElevatorsTest" />
-      <option name="METHOD_NAME" value="elevators_going_down_arrive_last_to_top_floor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ElevatorsTest.elevators_going_up_and_not_stopping_should_arrive_first_to_top_floor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
@@ -121,13 +109,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train" />
+      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ElevatorsTest" />
+        <item itemvalue="JUnit.TrainTest" />
         <item itemvalue="JUnit.ElevatorsTest.can_request_elevator_in_middle_of_building" />
         <item itemvalue="JUnit.ElevatorsTest.elevators_going_up_and_not_stopping_should_arrive_first_to_top_floor" />
         <item itemvalue="JUnit.ElevatorsTest.elevators_going_up_should_be_compared_to_those_resting" />
-        <item itemvalue="JUnit.ElevatorsTest.elevators_going_down_arrive_last_to_top_floor" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +161,8 @@
       <workItem from="1605996832298" duration="2344000" />
       <workItem from="1606066655634" duration="20000" />
       <workItem from="1606222405221" duration="649000" />
-      <workItem from="1606224296692" duration="6840000" />
+      <workItem from="1606224296692" duration="6934000" />
+      <workItem from="1606232209434" duration="1333000" />
     </task>
     <servers />
   </component>
@@ -174,10 +178,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606227311464">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606233169422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606227311464" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606233169422" />
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605961615179">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -194,22 +198,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606231145872">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606233276058">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606231145872" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606231145872">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606233276058" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606233276058">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606231145872" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606231145871">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606233276058" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606233276058">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606231145871" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606231145872">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606233276058" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606233276058">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606231145872" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606233276058" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604942979500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
