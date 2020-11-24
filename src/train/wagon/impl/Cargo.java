@@ -4,9 +4,6 @@ import train.wagon.Wagon;
 import train.wagon.wagon_state.CargoState;
 import train.wagon.wagon_state.impl.EmptyCargo;
 import train.wagon.wagon_state.impl.LoadedCargo;
-
-import static  train.config.Configuration.LOADED_CARGO;
-import static  train.config.Configuration.EMPTY_CARGO;
 public class Cargo implements Wagon {
     private CargoState cargo =new EmptyCargo();
 
