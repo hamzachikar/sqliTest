@@ -25,6 +25,6 @@ public class Elevator {
 
     public void stopAt(int numberFloor) {
         this.currentFloor=numberFloor;
-        this.elevatorStateController.stop();
+        this.elevatorStateController.move("STOP");
     }
 }

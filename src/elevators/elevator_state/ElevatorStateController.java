@@ -20,16 +20,17 @@ public class ElevatorStateController {
             case "DOWN":
                 elevatorState=new DownWardState();
                 break;
-            case "up":
+            case "UP":
                 elevatorState=new UpWardState();
                 break;
             case "REST":
                 elevatorState=new RestState();
                 break;
+            case "STOP":
+                elevatorState=new StopState();
+                break;
         }
     }
 
-    public void stop() {
-        elevatorState=new StopState();
-    }
+
 }
