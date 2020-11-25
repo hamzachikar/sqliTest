@@ -4,7 +4,6 @@
     <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elevators/main_class/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/main_class/Elevator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,92 +41,98 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bombermanSQLI" />
   </component>
-  <component name="RunManager" selected="JUnit.ElevatorsTest">
-    <configuration name="ElevatorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elevators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elevators" />
-      <option name="MAIN_CLASS_NAME" value="elevators.ElevatorsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevatorsTest.can_request_elevator_in_middle_of_building" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elevators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elevators" />
-      <option name="MAIN_CLASS_NAME" value="elevators.ElevatorsTest" />
-      <option name="METHOD_NAME" value="can_request_elevator_in_middle_of_building" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevatorsTest.elevators_going_up_and_not_stopping_should_arrive_first_to_top_floor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elevators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elevators" />
-      <option name="MAIN_CLASS_NAME" value="elevators.ElevatorsTest" />
-      <option name="METHOD_NAME" value="elevators_going_up_and_not_stopping_should_arrive_first_to_top_floor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevatorsTest.elevators_going_up_should_be_compared_to_those_resting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sqli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elevators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elevators" />
-      <option name="MAIN_CLASS_NAME" value="elevators.ElevatorsTest" />
-      <option name="METHOD_NAME" value="elevators_going_up_should_be_compared_to_those_resting" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="train_decorator_pattern.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TrainTest">
     <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train.*" />
+          <option name="PATTERN" value="train_decorator_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train" />
-      <option name="MAIN_CLASS_NAME" value="train.TrainTest" />
+      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
+      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainTest.cargoTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
+      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
+      <option name="METHOD_NAME" value="cargoTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainTest.doubleHeadedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
+      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
+      <option name="METHOD_NAME" value="doubleHeadedTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainTest.mixedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
+      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
+      <option name="METHOD_NAME" value="mixedTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainTest.modifyTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
+      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
+      <option name="METHOD_NAME" value="modifyTrain" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElevatorsTest" />
         <item itemvalue="JUnit.TrainTest" />
-        <item itemvalue="JUnit.ElevatorsTest.can_request_elevator_in_middle_of_building" />
-        <item itemvalue="JUnit.ElevatorsTest.elevators_going_up_and_not_stopping_should_arrive_first_to_top_floor" />
-        <item itemvalue="JUnit.ElevatorsTest.elevators_going_up_should_be_compared_to_those_resting" />
+        <item itemvalue="JUnit.TrainTest.mixedTrain" />
+        <item itemvalue="JUnit.TrainTest.cargoTrain" />
+        <item itemvalue="JUnit.TrainTest.modifyTrain" />
+        <item itemvalue="JUnit.TrainTest.doubleHeadedTrain" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +164,10 @@
       <workItem from="1606066655634" duration="20000" />
       <workItem from="1606222405221" duration="649000" />
       <workItem from="1606224296692" duration="6934000" />
-      <workItem from="1606232209434" duration="4753000" />
+      <workItem from="1606232209434" duration="4877000" />
+      <workItem from="1606251479594" duration="8938000" />
+      <workItem from="1606304874717" duration="5304000" />
+      <workItem from="1606319375547" duration="15907000" />
     </task>
     <servers />
   </component>
@@ -174,14 +183,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606233169422">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606325233491">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606233169422" />
-    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605961615179">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606325233491" />
+    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606253220085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1605961615179" />
+    <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1606253220085" />
     <state x="115" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605961607377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -194,42 +203,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606237032606">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606338975649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606237032606" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606237032606">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606338975649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606237032606" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606237032605">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606338975648">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606237032605" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606237032606">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606338975648" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606338975649">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606237032606" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604942979500">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606325305520">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1604942979500">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606325305520">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1604942979500">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606325305520">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1604942979500">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606325305520">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604942979500" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
     <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604781032531">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1604781032531" />
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606328705835">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1606328705835" />
     <state x="209" y="38" key="new project wizard" timestamp="1605121268169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
