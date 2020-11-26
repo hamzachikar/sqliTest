@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevators/elevator_state/ElevatorStateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sqli/diches/Dishes$Dishe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sqli/diches/Dishes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sqli/diches/Dishes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diches/Dishes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diches/Dishes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diches/Satelites.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,81 +49,81 @@
       <recent name="train_decorator_pattern.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrainTest">
-    <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DichesTest">
+    <configuration name="DichesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="PATTERN" value="diches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
-      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainTest.cargoTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DichesTest.EuronewsShouldBeDisplayedIfDishIsMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="PATTERN" value="diches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
-      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
-      <option name="METHOD_NAME" value="cargoTrain" />
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="METHOD_NAME" value="EuronewsShouldBeDisplayedIfDishIsMoved" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainTest.doubleHeadedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DichesTest.RTMShouldBeDisplayedIfDishIsMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="PATTERN" value="diches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
-      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
-      <option name="METHOD_NAME" value="doubleHeadedTrain" />
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="METHOD_NAME" value="RTMShouldBeDisplayedIfDishIsMoved" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainTest.mixedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DichesTest.ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="PATTERN" value="diches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
-      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
-      <option name="METHOD_NAME" value="mixedTrain" />
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="METHOD_NAME" value="ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainTest.modifyTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DichesTest.shouldFindTheBestQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train_decorator_pattern.*" />
+          <option name="PATTERN" value="diches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="train_decorator_pattern" />
-      <option name="MAIN_CLASS_NAME" value="train_decorator_pattern.TrainTest" />
-      <option name="METHOD_NAME" value="modifyTrain" />
+      <option name="PACKAGE_NAME" value="diches" />
+      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="METHOD_NAME" value="shouldFindTheBestQuality" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrainTest" />
-        <item itemvalue="JUnit.TrainTest.mixedTrain" />
-        <item itemvalue="JUnit.TrainTest.cargoTrain" />
-        <item itemvalue="JUnit.TrainTest.modifyTrain" />
-        <item itemvalue="JUnit.TrainTest.doubleHeadedTrain" />
+        <item itemvalue="JUnit.DichesTest" />
+        <item itemvalue="JUnit.DichesTest.RTMShouldBeDisplayedIfDishIsMoved" />
+        <item itemvalue="JUnit.DichesTest.EuronewsShouldBeDisplayedIfDishIsMoved" />
+        <item itemvalue="JUnit.DichesTest.shouldFindTheBestQuality" />
+        <item itemvalue="JUnit.DichesTest.ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +170,8 @@
       <workItem from="1606232209434" duration="4877000" />
       <workItem from="1606251479594" duration="8938000" />
       <workItem from="1606304874717" duration="5304000" />
-      <workItem from="1606319375547" duration="15907000" />
+      <workItem from="1606319375547" duration="16532000" />
+      <workItem from="1606388980855" duration="12205000" />
     </task>
     <servers />
   </component>
@@ -183,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606325233491">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606398746491">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606325233491" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606398746491" />
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606253220085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -203,38 +207,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606338975649">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606401108360">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606338975649">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606401108360" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606401108360">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606338975648">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606401108360" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606401108356">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606338975648" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606338975649">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606401108356" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606401108360">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606338975649" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606325305520">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606401108360" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606340004740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606325305520">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606340004740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606325305520">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606340004740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606325305520">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606340004740">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606325305520" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
     <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604781032531">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
