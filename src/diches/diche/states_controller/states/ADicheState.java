@@ -35,4 +35,8 @@ public abstract class ADicheState implements DicheState {
     protected DicheState chageDirection(float degree, String direction){
         return StateFactoryController.getDicheState(degree+""+direction);
     };
+    protected DicheState addDegreeDiche(String degreeProps){
+        this.degree=this.degree+Float.valueOf(degreeProps.substring(0,degreeProps.length()-1));
+        return this;
+    }
 }

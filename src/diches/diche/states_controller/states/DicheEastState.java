@@ -12,9 +12,7 @@ public class DicheEastState extends ADicheState {
     @Override
     public DicheState move(String degreeProps) {
         if(degreeProps.endsWith("E")){
-            float newDegree=super.degree+Float.valueOf(degreeProps.substring(0,degreeProps.length()-1));
-                super.degree=newDegree;
-                return this;
+            return super.addDegreeDiche(degreeProps);
         }
         else{
             return super.move(degreeProps);
