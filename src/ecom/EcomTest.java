@@ -13,7 +13,7 @@ public class EcomTest {
         ecommerceFacade.addMachine("CITIZ", 1, 200);
         assertEquals("Machine\n\tName: CITIZ\tQuantity: 1\tPrice: 200\n\tName: PIXIE\tQuantity: 1\tPrice: 350\n\tName: PRODIGIO\tQuantity: 1\tPrice: 150\n", ecommerceFacade.cartContent());
     }
-    @Test
+   @Test
     public void testGroupMachinesWithTheSameName() {
         EcommerceFacade ecommerceFacade = new EcommerceFacade();
         ecommerceFacade.addMachine("PRODIGIO", 1, 150);
@@ -86,7 +86,7 @@ public class EcomTest {
         ecommerceFacade.addCapsule("ROMA", 10, 3);
         assertEquals("Capsule\n\tQuantity: 55\tPrice: 200\nMachine\n\tQuantity: 4\tPrice: 1050\nTotal Price: 1250\n", ecommerceFacade.summary());
     }
-    @Test
+   @Test
     public void testCantOrderAnEmptyCart() {
         EcommerceFacade ecommerceFacade = new EcommerceFacade();
         ecommerceFacade.order();
@@ -131,6 +131,5 @@ public class EcomTest {
         assertTrue(ecommerceFacade.hasErrors());
         assertEquals("Voucher requires machine purchase", ecommerceFacade.errors());
     }
-
 
 }

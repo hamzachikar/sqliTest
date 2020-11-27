@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diches/diche/states_controller/states/ADicheState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diches/diche/states_controller/states/ADicheState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diches/diche/states_controller/states/DicheEastState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diches/diche/states_controller/states/DicheEastState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diches/diche/states_controller/states/DicheWestState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diches/diche/states_controller/states/DicheWestState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ecom/CodeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ecom/EcomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecom/EcomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ecom/EcommerceFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecom/EcommerceFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ecom/OrderException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,81 +49,81 @@
       <recent name="train_decorator_pattern.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DichesTest">
-    <configuration name="DichesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EcomTest">
+    <configuration name="EcomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichesTest.EuronewsShouldBeDisplayedIfDishIsMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EcomTest.testPackagingRuleCapsules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
-      <option name="METHOD_NAME" value="EuronewsShouldBeDisplayedIfDishIsMoved" />
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testPackagingRuleCapsules" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichesTest.RTMShouldBeDisplayedIfDishIsMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EcomTest.testVoucherCodeFailIfNotNumeric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
-      <option name="METHOD_NAME" value="RTMShouldBeDisplayedIfDishIsMoved" />
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testVoucherCodeFailIfNotNumeric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichesTest.ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EcomTest.testVoucherCodeRequireMachinePurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
-      <option name="METHOD_NAME" value="ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" />
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testVoucherCodeRequireMachinePurchase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichesTest.shouldFindTheBestQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EcomTest.testVoucherCodeSucessIfNumeric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diches.*" />
+          <option name="PATTERN" value="ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diches" />
-      <option name="MAIN_CLASS_NAME" value="diches.DichesTest" />
-      <option name="METHOD_NAME" value="shouldFindTheBestQuality" />
+      <option name="PACKAGE_NAME" value="ecom" />
+      <option name="MAIN_CLASS_NAME" value="ecom.EcomTest" />
+      <option name="METHOD_NAME" value="testVoucherCodeSucessIfNumeric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DichesTest" />
-        <item itemvalue="JUnit.DichesTest.RTMShouldBeDisplayedIfDishIsMoved" />
-        <item itemvalue="JUnit.DichesTest.EuronewsShouldBeDisplayedIfDishIsMoved" />
-        <item itemvalue="JUnit.DichesTest.shouldFindTheBestQuality" />
-        <item itemvalue="JUnit.DichesTest.ZDFShouldBeDisplayedBadlyAndEuronewsShouldNotBeDisplayed" />
+        <item itemvalue="JUnit.EcomTest" />
+        <item itemvalue="JUnit.EcomTest.testPackagingRuleCapsules" />
+        <item itemvalue="JUnit.EcomTest.testVoucherCodeRequireMachinePurchase" />
+        <item itemvalue="JUnit.EcomTest.testVoucherCodeSucessIfNumeric" />
+        <item itemvalue="JUnit.EcomTest.testVoucherCodeFailIfNotNumeric" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +171,10 @@
       <workItem from="1606251479594" duration="8938000" />
       <workItem from="1606304874717" duration="5304000" />
       <workItem from="1606319375547" duration="16532000" />
-      <workItem from="1606388980855" duration="12447000" />
+      <workItem from="1606388980855" duration="13213000" />
+      <workItem from="1606418243773" duration="8704000" />
+      <workItem from="1606471412477" duration="599000" />
+      <workItem from="1606475249427" duration="10507000" />
     </task>
     <servers />
   </component>
@@ -182,22 +186,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606230763612" />
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606485611527">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1606485611527" />
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1604783409042">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="105" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604783409042" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606398746491">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606485381769">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606398746491" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1606485381769" />
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606253220085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="566" y="302" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1606253220085" />
-    <state x="115" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605961607377">
+    <state x="115" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606426635440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="115" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1605961607377" />
+    <state x="115" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1606426635440" />
     <state x="393" y="12" key="CommitChangelistDialog2" timestamp="1605888542661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -206,38 +214,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606407697022">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606485934143">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606407697022" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606407697022">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606485934143" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606485934139">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606407697022" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606407697022">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606485934139" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606485934139">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606407697022" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606407697022">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606485934139" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606485934143">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606407697022" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606340004740">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606485934143" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606481030540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606340004740">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606481030540" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606481030540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606340004740">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606481030540" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606481030540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606340004740">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606481030540" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606481030540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606340004740" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606481030540" />
     <state x="498" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604781032531">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -250,6 +258,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="209" y="38" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1605121268169" />
+    <state x="511" y="47" key="refactoring.ChangeSignatureDialog" timestamp="1606480002562">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="511" y="47" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1606480002562" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1605964852294">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
