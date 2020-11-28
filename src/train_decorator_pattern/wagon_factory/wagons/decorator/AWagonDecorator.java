@@ -1,16 +1,15 @@
 package train_decorator_pattern.wagon_factory.wagons.decorator;
 
 
-
-import train.wagon.wagon_state.impl.EmptyCargo;
 import train_decorator_pattern.wagon_factory.wagons.Wagon;
 import train_decorator_pattern.wagon_factory.wagons.decorator.extend.Cargo;
-import train_decorator_pattern.wagon_factory.wagons.decorator.extend.wagon_state.state.EmptyCargoState;
-import train_decorator_pattern.wagon_factory.wagons.decorator.extend.wagon_state.state.FullCargoState;
+import static train_decorator_pattern.config.Configuration.EMPTY_CARGO;
 
 public abstract class AWagonDecorator implements Wagon {
     private Wagon decoratedWagon=null;
-    public AWagonDecorator(Wagon decoratedWagon){
+    private String wagonString;
+    public AWagonDecorator(Wagon decoratedWagon,String wagonString){
+        this.wagonString=wagonString;
         this.decoratedWagon=decoratedWagon;
     }
     public String print(){
@@ -35,21 +34,24 @@ public abstract class AWagonDecorator implements Wagon {
     }
     public boolean findOtherEmptyCargo(Wagon wagon){
          if(wagon!=null&&wagon.getDecoratedWagon()!=null){
-             System.out.println(wagon.print());
-            if(wagon.getDecoratedWagon() instanceof Cargo){
-                System.out.println("Founded");
-                if(((Cargo)(wagon.getDecoratedWagon())).getCargoStateController().getCargoState() instanceof EmptyCargoState){
-                    return true;
-                }
-                else {
-                    return false;
-                }
+            if(wagon.getDecoratedWagon().getWagonString().equalsIgnoreCase(EMPTY_CARGO)){
+                return true;
             }
             else{
-                System.out.println("other");
                 return this.findOtherEmptyCargo(wagon.getDecoratedWagon());
             }
-        }
-        return false;
+         }
+         else{
+             return false;
+         }
+
+    }
+
+    protected void setLoadedWagon(String wagonString){
+        this.wagonString=wagonString;
+    }
+    @Override
+    public String getWagonString(){
+        return this.wagonString;
     }
 }

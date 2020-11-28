@@ -59,6 +59,7 @@ public class TrainTest {
         assertEquals("<HHHH::|^^^^|::|^^^^|::|____|", train.print());
         train.fill();
         assertEquals("<HHHH::|^^^^|::|^^^^|::|^^^^|", train.print());
+
         assertFalse(train.fill());
     }
     @Test

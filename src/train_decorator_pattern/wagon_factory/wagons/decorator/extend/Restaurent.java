@@ -6,8 +6,8 @@ import train_decorator_pattern.wagon_factory.wagons.decorator.AWagonDecorator;
 import static train_decorator_pattern.config.Configuration.CONNECT;
 import static train_decorator_pattern.config.Configuration.RESTAURENT;
 public class Restaurent extends AWagonDecorator{
-    public Restaurent(Wagon decoratedWagon) {
-        super(decoratedWagon);
+    public Restaurent(Wagon decoratedWagon,String wagonString) {
+        super(decoratedWagon,wagonString);
     }
 
     @Override

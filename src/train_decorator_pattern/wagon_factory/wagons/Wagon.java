@@ -5,6 +5,6 @@ public interface Wagon {
     Wagon detatchEnd();
     Wagon getDecoratedWagon();
     Wagon detatchHead();
-
+    String getWagonString();
     boolean fill();
 }

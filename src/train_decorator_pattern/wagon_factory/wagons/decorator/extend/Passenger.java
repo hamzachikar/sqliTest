@@ -6,8 +6,8 @@ import train_decorator_pattern.wagon_factory.wagons.decorator.AWagonDecorator;
 import static train_decorator_pattern.config.Configuration.PASSENGER;
 import static train_decorator_pattern.config.Configuration.CONNECT;
 public class Passenger extends AWagonDecorator{
-    public Passenger(Wagon decoratedWagon) {
-        super(decoratedWagon);
+    public Passenger(Wagon decoratedWagon,String wagonString) {
+        super(decoratedWagon,wagonString);
     }
     @Override
     public String print() {

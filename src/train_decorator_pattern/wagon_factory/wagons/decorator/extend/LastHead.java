@@ -7,8 +7,8 @@ import train_decorator_pattern.wagon_factory.wagons.decorator.AWagonDecorator;
 import static train_decorator_pattern.config.Configuration.LAST_WAGON;
 public class LastHead extends AWagonDecorator {
 
-    public LastHead(Wagon decoratedWagon) {
-        super(decoratedWagon);
+    public LastHead(Wagon decoratedWagon,String wagonString) {
+        super(decoratedWagon,wagonString);
     }
 
     @Override
