@@ -1,4 +1,4 @@
-package diches.diche.siches_service;
+package diches.diche.diches_service;
 
 
 import diches.diche.diche_factory.Diche;

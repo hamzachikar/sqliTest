@@ -1,8 +1,8 @@
 package diches;
 
 
-import diches.diche.siches_service.DichesService;
-import diches.diche.siches_service.DichesServiceController;
+import diches.diche.diches_service.DichesService;
+import diches.diche.diches_service.DichesServiceController;
 
 public class Dishes {
     private DichesService dichesService;

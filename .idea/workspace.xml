@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="" />
+    <list default="true" id="b40b0fc5-89d6-4999-8c76-8316d3fe48a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train_decorator_pattern/wagon_factory/wagons/decorator/AWagonDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_decorator_pattern/wagon_factory/wagons/decorator/AWagonDecorator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +41,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bombermanSQLI" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -173,6 +179,10 @@
       <workItem from="1606513850416" duration="5553000" />
       <workItem from="1606564956507" duration="1762000" />
       <workItem from="1606569233087" duration="3055000" />
+      <workItem from="1606572529798" duration="608000" />
+      <workItem from="1606581892073" duration="52000" />
+      <workItem from="1606662137567" duration="600000" />
+      <workItem from="1606813786122" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="ecomTest">
       <created>1606485997233</created>
@@ -220,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="393" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1606485995507" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605443509466">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606814140692">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605443509466" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606814140692" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606572289860">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -256,6 +266,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606486232691" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1606814617299">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606814617299" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1606486002910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -41,9 +41,7 @@ public abstract class AWagonDecorator implements Wagon {
                 return this.findOtherEmptyCargo(wagon.getDecoratedWagon());
             }
          }
-         else{
-             return false;
-         }
+         return false;
 
     }
 
